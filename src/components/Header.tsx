@@ -12,7 +12,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="border-b-4 border-black bg-yellow-300">
+    <header className="sticky top-0 z-50 border-b-4 border-black bg-yellow-300 pt-[env(safe-area-inset-top)]">
       <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
         <Link href="/" className="text-xl font-black uppercase tracking-tight">
           Neo Portal
